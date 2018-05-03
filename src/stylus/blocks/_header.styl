@@ -1,0 +1,45 @@
+.header
+  margin-top 82px
+  &__wrap
+    display flex
+    justify-content space-between
+    align-items center
+  &__link-wrap
+    width 148px
+    height 52px
+    padding 6px 10px
+    border 2px solid black
+    @extend .header__wrap
+    justify-content center
+  &__logo
+    width 108px
+    height 30px
+    background url("../images/logo.png") no-repeat center center
+    display inline-block
+  &__menu
+    margin-top 15px
+    display none
+  &__menu-item
+    display block
+    width 100%
+    background-color #170f1c
+    text-align center
+    padding 8px 0
+    color #ffffff
+    text-decoration none
+    margin 1px 0
+    will-change: background-color, color
+    text-transform uppercase
+    transition background-color .3s, color .3s
+    &:hover
+      background-color #fc6744
+      color #170f1c
+  &__menu-but
+    border 0
+    background-color transparent
+    cursor pointer
+  &__line
+    width 34px
+    height 4px
+    margin 4px 0
+    background-color #170f1c

@@ -1,0 +1,11 @@
+mixin menu__item(href, name)
+  a.header__menu-item(href=href)=name
+
+nav.header__menu
+  +menu__item("#working-process","Working Process")
+  +menu__item("#featured-works","Featured Works")
+  +menu__item("#services-we-provide","Services We Provide")
+  +menu__item("#team-chinen-skills","Team Chinen & Skills")
+  +menu__item("#clients-said","Clients Said")
+  +menu__item("#contacts","Contact Us")
+

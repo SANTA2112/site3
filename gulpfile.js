@@ -68,7 +68,7 @@ gulp.task('watch', () => {
   watch('./src/stylus/**/*.*', () => {gulp.start('css'); browserSync.reload()});
   watch('./src/pug/**/*.*', () => {gulp.start('html'); browserSync.reload()});
   watch('./src/fonts/**/*.*', () => {gulp.start('fonts'); browserSync.reload()});
-  watch('./src/images/**/*.*', () => {gulp.start('imges'); browserSync.reload()});
+  watch('./src/images/**/*.*', () => {gulp.start('images'); browserSync.reload()});
   watch('./src/vendor/**/*.*', () => {gulp.start('vendor'); browserSync.reload()});
 })
 
