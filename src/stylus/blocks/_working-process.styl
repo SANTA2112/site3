@@ -1,0 +1,48 @@
+#working-process
+  margin 144px 0 158px
+.working-process
+  display flex
+  justify-content space-between
+  align-items center
+  flex-wrap wrap
+  margin-top 110px
+  &__stage-block
+    display flex
+    justify-content center
+    align-items center
+    flex-direction column
+    width 262px
+    height 262px
+    padding 0 16px
+    text-align center
+  &__header
+    margin-top 24px
+    color #ffffff
+    font 20px "Open Sans - Semibold"
+    letter-spacing 0.2px
+  &__description
+    margin-top 24px
+    color #ffffff
+  &__link
+    @extend .working-process__stage-block
+    flex-direction row
+    margin 30px 0 -76px
+    width 228px
+    height 55px
+    border-radius 27px
+    background-color #ffffff
+    opacity 0.8
+    color#000000
+    text-decoration none
+    will-change box-shadow
+    transition box-shadow .3s
+    &:before
+      content "\f067"
+      font-family "Font Awesome"
+      width 16px
+      height 16px
+      margin-right 18px
+    &:hover
+      box-shadow 1px 6px 14px rgba(20, 20, 21, 0.09)
+
+

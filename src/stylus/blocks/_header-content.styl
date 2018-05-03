@@ -1,5 +1,5 @@
 .header-content
-  margin-top 145px
+  margin-top 212px
   text-align center
   font 4.3em "Open Sans - Semibold"
   will-change opacity
@@ -8,7 +8,6 @@
     text-align center
     margin 1.9em auto 0
     font-size 1.2em
-    width 700px
   &__form
     padding 25px 40px
     width 372px
@@ -33,6 +32,7 @@
       border-color accent-color
   &__message
     padding-bottom 40px
+    resize: none
   &__button
     width 238px
     height 55px
@@ -46,9 +46,9 @@
     &:hover
       background-color lighten(accent-color, 20%)
     &:after
-      content ""
+      content "\f30b"
+      font-family: "Font Awesome";
       width: 17px
       height: 10px
       margin-left 17px
-      background url("../../images/button-arrow.png") no-repeat center center/cover
 

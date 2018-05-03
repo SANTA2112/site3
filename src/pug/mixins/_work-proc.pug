@@ -1,0 +1,7 @@
+mixin stage(bgc, header, desc, href, link, img)
+  .working-process__stage-block(style="background: " + bgc)
+    img.working-process__img(src="../../images/" + img)
+    h4.working-process__header=header
+    p.working-process__description=desc
+    a.working-process__link(href=href)=link
+

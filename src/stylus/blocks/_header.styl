@@ -1,5 +1,6 @@
 .header
   margin-top 82px
+  position relative
   &__wrap
     display flex
     justify-content space-between
@@ -17,8 +18,13 @@
     background url("../images/logo.png") no-repeat center center
     display inline-block
   &__menu
-    margin-top 15px
+    width 100%
+    position absolute
+    top 4.8em
+    left 0
     display none
+    &.active
+      display block
   &__menu-item
     display block
     width 100%
